@@ -503,6 +503,9 @@ video {
 .h-\[24px\] {
   height: 24px;
 }
+.h-\[24p\] {
+  height: 24p;
+}
 .w-full {
   width: 100%;
 }

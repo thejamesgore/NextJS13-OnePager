@@ -483,6 +483,15 @@ video {
   bottom: 0px;
   left: 0px;
 }
+.-top-\[30px\] {
+  top: -30px;
+}
+.z-10 {
+  z-index: 10;
+}
+.z-\[0\] {
+  z-index: 0;
+}
 .mx-\[6px\] {
   margin-left: 6px;
   margin-right: 6px;
@@ -490,6 +499,18 @@ video {
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
+}
+.-mt-\[12px\] {
+  margin-top: -12px;
+}
+.-mt-\[50px\] {
+  margin-top: -50px;
+}
+.-mt-\[500px\] {
+  margin-top: -500px;
+}
+.-mt-\[300px\] {
+  margin-top: -300px;
 }
 .flex {
   display: flex;
@@ -506,6 +527,15 @@ video {
 .h-\[24p\] {
   height: 24p;
 }
+.h-\[300px\] {
+  height: 300px;
+}
+.h-\[350px\] {
+  height: 350px;
+}
+.h-\[100px\] {
+  height: 100px;
+}
 .w-full {
   width: 100%;
 }
@@ -520,6 +550,15 @@ video {
 }
 .w-\[24px\] {
   width: 24px;
+}
+.w-\[100px\] {
+  width: 100px;
+}
+.flex-row {
+  flex-direction: row;
+}
+.flex-col {
+  flex-direction: column;
 }
 .items-start {
   align-items: flex-start;
@@ -549,6 +588,9 @@ video {
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
 }
+.rounded-tl-\[140px\] {
+  border-top-left-radius: 140px;
+}
 .border-\[9px\] {
   border-width: 9px;
 }
@@ -563,6 +605,10 @@ video {
 .object-contain {
   -o-object-fit: contain;
      object-fit: contain;
+}
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .px-6 {
   padding-left: 1.5rem;
@@ -584,6 +630,12 @@ video {
 }
 .pt-\[98px\] {
   padding-top: 98px;
+}
+.pl-6 {
+  padding-left: 1.5rem;
+}
+.pr-\[40px\] {
+  padding-right: 40px;
 }
 .text-\[44px\] {
   font-size: 44px;
@@ -722,12 +774,28 @@ video {
     margin-right: 0.5rem;
   }
 
+  .sm\:-mt-\[70px\] {
+    margin-top: -70px;
+  }
+
   .sm\:h-\[48px\] {
     height: 48px;
   }
 
+  .sm\:h-\[500px\] {
+    height: 500px;
+  }
+
+  .sm\:h-\[155px\] {
+    height: 155px;
+  }
+
   .sm\:w-\[80px\] {
     width: 80px;
+  }
+
+  .sm\:w-\[155px\] {
+    width: 155px;
   }
 
   .sm\:p-16 {
@@ -752,6 +820,10 @@ video {
     padding-bottom: 4rem;
   }
 
+  .sm\:pl-16 {
+    padding-left: 4rem;
+  }
+
   .sm\:text-\[60px\] {
     font-size: 60px;
   }
@@ -762,6 +834,14 @@ video {
 }
 
 @media (min-width: 768px) {
+
+  .md\:-mt-\[20px\] {
+    margin-top: -20px;
+  }
+
+  .md\:-mt-\[20\] {
+    margin-top: -20;
+  }
 
   .md\:h-\[108px\] {
     height: 108px;

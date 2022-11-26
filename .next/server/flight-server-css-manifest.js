@@ -1,0 +1,1 @@
+self.__RSC_CSS_MANIFEST={"__entry_css__":{"/Users/jamesgore/Desktop/NEXTJS-13-OnePager/app/page":["/Users/jamesgore/Desktop/NEXTJS-13-OnePager/styles/globals.css"]},"/Users/jamesgore/Desktop/NEXTJS-13-OnePager/app/layout.js":["/Users/jamesgore/Desktop/NEXTJS-13-OnePager/styles/globals.css"]}

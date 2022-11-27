@@ -1,5 +1,7 @@
 # NextJS-13-OnePager
 
+Status: In development
+
 A landing page created using NextJS 13 & Framer Motion with the intetion of understanding the differences between previous versions of NextJS and the new features implemented in version 13.
 
 Also created using SOLID principles for practice.
@@ -9,6 +11,7 @@ Live project can be viewed here - https://next-js-13-one-pager.vercel.app/
 ### Noticable Differences
 
 React components are server side componenets by default. Consequence of this is:
+
 - Apps run faster by default
 - Apps are more cachefull
 - More predictable in size

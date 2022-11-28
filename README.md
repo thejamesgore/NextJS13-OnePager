@@ -1,8 +1,8 @@
 # NextJS-13-OnePager
 
-Status: In development
+Status: live
 
-A landing page created using NextJS 13 & Framer Motion with the intetion of understanding the differences between previous versions of NextJS and the new features implemented in version 13.
+A landing page created using NextJS 13 & Framer Motion with the intention of understanding the differences between previous versions of NextJS and the new features implemented in version 13.
 
 Also created using SOLID principles for practice.
 
